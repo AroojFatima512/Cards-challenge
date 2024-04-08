@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+.box{
+    display: block;
+    width: 250px;
+    height: 400px;
+}
+.img{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#card1, #b1{
+    background-color:  hsl(31, 77%, 52%);
+}
+#card2, #b2{
+    background-color: hsl(184, 100%, 22%);
+}
+#card3, #b3{
+    background-color: hsl(179, 100%, 13%);
+}
+.heading{
+    margin-left: 30px;
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+}
+.text{
+    margin-left: 30px;
+    margin-right: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: sans-serif, monospace;
+}
+.button{
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-color: hsl(0, 0%, 95%);
+    color: white;
+}
+.button:hover{
+    color: #000;
+}
+.box:hover{
+     transform: scale(1.02);
+}
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-top: 30px;
+    }
+    .box {
+        width: 45%; /* Adjusted box width for tablets */
+    }
+    .heading,
+    .text,
+    .button {
+        margin: 10px; /* Adjusted margins for tablets */
+    }
+}
+
+/* For cell phones */
+@media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 20px;
+    }
+    .box {
+        width: 100%; /* Full width for cell phones */
+    }
+}
