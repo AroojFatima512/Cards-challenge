@@ -88,6 +88,9 @@ p{
         margin-top: 20px;
         overflow-x: hidden; /* Hide horizontal scrolling */
         overflow-y: scroll; /* Enable vertical scrolling */
+        white-space: normal; /* Reset white-space to normal */
+        flex-direction: column; /* Stack cards vertically */
+        height: 100vh; 
     }
     .box {
         width: 90vw; /* Full width for cell phones */
