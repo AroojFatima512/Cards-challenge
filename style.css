@@ -88,12 +88,10 @@ p{
         margin-top: 20px;
         overflow-x: hidden; /* Hide horizontal scrolling */
         overflow-y: scroll; /* Enable vertical scrolling */
-        white-space: nowrap; /* Ensure cards are displayed in a single line */
     }
     .box {
-        width: 100vw; /* Full width for cell phones */
-        display: inline-block; /* Ensure each card appears in a line */
-        margin-bottom: 20px; /* Add space between cards */
+        width: 90vw; /* Full width for cell phones */
+        display: block; /* Ensure each card appears in a line */
     }
 }
 
